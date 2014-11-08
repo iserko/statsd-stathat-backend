@@ -11,15 +11,15 @@ A statsd backend to send metrics to StatHat
 
 ## Example statsdConfig.js
 
-  {
-    stathat: {
-      ez_key: '<get_it_from_stathat>',
-      max_attempts: 5,
-      retry_delay: 1000
-    },
-    port: 8125,
-    backends: ["../statsd-stathat-backend/lib/statsd-stathat"]
-  }
+    {
+      stathat: {
+        ez_key: '<get_it_from_stathat>',
+        max_attempts: 5,
+        retry_delay: 1000
+      },
+      port: 8125,
+      backends: ["../statsd-stathat-backend/lib/statsd-stathat"]
+    }
 
 ## Release History
 
