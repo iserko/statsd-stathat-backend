@@ -1,0 +1,38 @@
+{
+  "name": "statsd-stathat-backend",
+  "version": "0.0.1",
+  "description": "StatsD backend to send stats to stathat",
+  "main": "./lib/statsd-stathat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iserko/statsd-stathat-backend.git"
+  },
+  "keywords": [
+    "statsd",
+    "stathat"
+  ],
+  "author": {
+    "name": "Igor Serko",
+    "email": "igor.serko@gmail.com",
+    "url": "https://github.com/iserko"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iserko/statsd-stathat-backend/issues"
+  },
+  "homepage": "https://github.com/iserko/statsd-stathat-backend",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "node-stathat": "~1.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "iserko",
+      "email": "igor.serko@gmail.com"
+    }
+  ]
+}
